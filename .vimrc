@@ -98,3 +98,6 @@ endif
 set tabstop=4 softtabstop=0 noexpandtab shiftwidth=4
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 execute pathogen#infect()
+let g:molokai_original=1
+set t_Co=256
+colorscheme molokai
