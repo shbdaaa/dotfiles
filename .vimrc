@@ -101,3 +101,7 @@ execute pathogen#infect()
 let g:molokai_original=1
 set t_Co=256
 colorscheme molokai
+set laststatus=2
+set encoding=utf-8
+let g:Powerline_symbols='fancy'
+let g:Powerline_colorscheme='solarized256'
